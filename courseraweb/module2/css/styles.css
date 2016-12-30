@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+.menuitem1 {
+	background-color: gray;
+}
+
+.menuitem2 {
+	background-color: green;
+}
+
+.menuitem3 {
+	background-color: red;
+}
+
+.mymenu {
+	border: black solid;
+	border-width: 1px;
+	float: left;
+	margin: 1%;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: "Comic Sans MS", serif;
+}
+
+@media (min-width: 992px) {
+	.mymenu {
+		width: 31.3333%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.mymenu {
+		width: 48%;
+	}
+	.menuitem3 {
+		width: 98%;
+	}
+}
+
+@media (max-width: 767px) {
+	.mymenu {
+		width: 98%;
+	}
+}
+
+.menucontent {
+	clear: right;
+	margin: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.mygrid {
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	background-color: yellow;
+}
+
+.myfooter {
+	/*clear: left right;*/
+}
+
+.menutitle {
+	border: black solid;
+	border-width: 1px;
+	position: relative;
+	width: 30%;
+	float: right;
+	top: 0px;
+}
