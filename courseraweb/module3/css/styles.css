@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+.graybackground {
+  background-color: #F1F1F1;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.mychicken {
+  font-weight: bold;
+}
+
+#navbar-list {
+    background-color: #A1A1A1;
+}
+
+#headtitle {
+    font-family: "Comic Sans MS", serif;
+}
+
+.gridformargin {
+    width: 100%;
+    padding: 15px;
+}
