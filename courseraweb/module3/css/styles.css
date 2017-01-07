@@ -23,7 +23,8 @@
     font-family: "Comic Sans MS", serif;
 }
 
-.gridformargin {
-    width: 100%;
-    padding: 15px;
+.menucontent {
+  background-color: #F1F1F1;
+  margin: 5px;
+  padding: 10px;
 }
